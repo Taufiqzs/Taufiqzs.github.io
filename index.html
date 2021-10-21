@@ -8,6 +8,7 @@
     <title>Portfolio</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -35,7 +36,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">Experience</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">Organizational Experience</a></li>
             <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#certificate">Certificate</a></li>
             <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skill">Skills</a></li>
             <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#education">Education</a></li>
@@ -47,18 +48,19 @@
     <!-- Masthead-->
     <header class="masthead bg-primary text-white text-center">
       <div class="container d-flex align-items-center flex-column">
+          
         <!-- Masthead Avatar Image-->
-        <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
+        <img class="masthead-avatar mb-5" data-aos="zoom-in-down" src="assets/img/avataaars.svg" alt="..." />
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Taufiqurrahman Zahruddin Sutomo</h1>
+        <h1 class="masthead-heading text-uppercase mb-0"data-aos="zoom-in-down">Taufiqurrahman Zahruddin Sutomo</h1>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-icon"><i class="fas fa-caret-up"></i></div>
           <div class="divider-custom-line"></div>
         </div>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0"> Computer Science Major - Software Engineer - Free Lance</p>
+        <p class="masthead-subheading font-weight-light mb-0"data-aos="fade-right"> Computer Science Major - Software Engineer - Free Lance</p>
       </div>
     </header>
      <!-- experience Section-->
@@ -66,54 +68,72 @@
         <div class="container">
             
             <!-- certificate Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experience</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"data-aos="zoom-in-down" data-aos-offset="300">Organizational Experience</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
-              <div class="divider-custom-line"></div>
-              <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-              <div class="divider-custom-line"></div>
+              <div class="divider-custom-line"data-aos="fade-right"data-aos-offset="300"></div>
+              <div class="divider-custom-icon"data-aos="zoom-in" data-aos-offset="300"><i class="fas fa-caret-up"></i></div>
+              <div class="divider-custom-line"data-aos="fade-left"data-aos-offset="300"></div>
             </div>
-            <h1 class="fs-3 text-center text-uppercase text-secondary mb-0">BNCC (Bina Nusantara Computer Club)</h1><br />
-            <h1 class="fs-5 text-center text-uppercase text-secondary mb-0">Member</h1><br />
+            <div class="experience-text justify-content-center">
+                <h1 class="fs-3  text-center text-uppercase text-secondary mb-0"data-aos="fade-right"data-aos-offset="300" >BNCC (Bina Nusantara Computer Club)</h1>
+            </div> 
+            <h1 class="fs-5 text-center text-uppercase text-secondary mb-4" data-aos="fade-left"data-aos-offset="300">Member</h1>
+
             <div class="row justify-content-center">
-               
+                
+                
+              
          
-            <p>
-                <div class="col-4">
+               
+                    <div class="col-sm-4" data-aos="zoom-in-up" data-aos-offset="300" >
                   
-                
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
-                    <circle cx="8" cy="8" r="8"/>
-                  </svg>
-                  &emsp;Web development training
-                </div><br />
-                <div class="col-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
-                    <circle cx="8" cy="8" r="8"/>
-                  </svg>
-                  &emsp;Java programming training
-                </div><br />
+                    <h5 class = "pexper1 text-center text-break " >    
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                            <circle cx="7" cy="7" r="7"/>
+                        </svg>
+                    
+                        &emsp;Web development training 
+                    </h5>
+                    </div>
+                    <div class="col-sm-4" data-aos="zoom-in-up" data-aos-offset="300">
+                    
+                    <h5 class = "pexper1 text-center text-break " >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                            <circle cx="7" cy="7" r="7"/>
+                        </svg>
+                    
+                        &emsp;Java programming training 
+                    </h5>
+                    </div>
 
-            </p>
+                
             </div>
+           
+            <h1 class="fs-5 text-center text-uppercase text-secondary mb-4" data-aos="fade-right"data-aos-offset="300">Activist</h1><br />
 
-
-            <div class="row justify-content-center">
-            <h1 class="fs-5 text-center text-uppercase text-secondary mb-0">Activist</h1><br />
-            <p>
+            <div class="row justify-content-center ">
                 
-                <div class="col-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
-                    <circle cx="8" cy="8" r="8"/>
-                  </svg>
-                  &emsp;BNCC CSR handling social media content and form feedback. </div><br />
-                <div class="col-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
-                    <circle cx="8" cy="8" r="8"/>
-                  </svg>
-                  &emsp;BNCC TECHNO TALK II “Road to FinTech Developer” as a staff of sponsorship & media partner division. </div><br />
+                
+                    <div class="col-sm-4" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h5 class = "pexper2 text-break text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                            <circle cx="7" cy="7" r="7"/>
+                        </svg>
+                        &emsp;BNCC CSR handling social media content and form feedback. 
+                        </h5>
+                    </div>
 
-            </p>
+                    <div class="col-sm-4" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h5 class = "pexper2 text-break text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                        <circle cx="7" cy="7" r="7"/>
+                        </svg>
+                        &emsp;BNCC TECHNO TALK II “Road to FinTech Developer” as a sponsorship & media partner staff. 
+                        </h5>
+                    </div>
+
+                </p>
             </div>
             <!-- certificate Grid Items-->
             <div class="row justify-content-center">
@@ -122,18 +142,18 @@
     <section class="page-section portfolio" id="certificate">
       <div class="container">
         <!-- certificate Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Certificate</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-aos="zoom-in-down" data-aos-offset="300">Certificate</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
+          <div class="divider-custom-line "data-aos="fade-right"data-aos-offset="300"></div>
+          <div class="divider-custom-icon"data-aos="zoom-in"data-aos-offset="300"><i class="fas fa-caret-up"></i></div>
+          <div class="divider-custom-line"data-aos="fade-left"data-aos-offset="300"></div>
         </div>
         <!-- certificate Grid Items-->
         <div class="row justify-content-center">
           <!-- certificate Item 1-->
           <div class="col-md-6 col-lg-4 mb-5">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#certificate1">
+            <div class="portfolio-item mx-auto" data-aos="flip-up" data-bs-toggle="modal" data-bs-target="#certificate1">
               <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
@@ -142,7 +162,7 @@
           </div>
           <!-- certificate Item 2-->
           <div class="col-md-6 col-lg-4 mb-5">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#certificate2">
+            <div class="portfolio-item mx-auto" data-aos="flip-up" data-bs-toggle="modal" data-bs-target="#certificate2">
               <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
@@ -150,8 +170,10 @@
             </div>
           </div>
           <!-- certificate Item 3-->
+          
           <div class="col-md-6 col-lg-4 mb-5">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#certificate3">
+       
+            <div class="portfolio-item mx-auto" data-aos="flip-up" data-bs-toggle="modal" data-bs-target="#certificate3">
               <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
               </div>
@@ -166,16 +188,71 @@
     <section class="page-section portfolio" id="skill">
         <div class="container">
             <!-- certificate Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"data-aos="zoom-in-down" data-aos-offset="300">Skills</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
-              <div class="divider-custom-line"></div>
-              <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-              <div class="divider-custom-line"></div>
+              <div class="divider-custom-line"data-aos="fade-right"data-aos-offset="300"></div>
+              <div class="divider-custom-icon"data-aos="zoom-in"data-aos-offset="300"><i class="fas fa-caret-up"></i></div>
+              <div class="divider-custom-line"data-aos="fade-left"data-aos-offset="300"></div>
             </div>
-            <p>
+            <div>
+               
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">HTML:</h2>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">Intermediate</h2>
+                    </div>
 
-            </p>
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">CSS:</h2>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">Intermediate</h2>
+                    </div>
+                    
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">JavaScript:</h2>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">Beginner</h2>
+                    </div>
+
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">BOOTSTRAP:</h2>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">Beginner</h2>
+                    </div>
+
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">Java:</h2>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">Intermediate</h2>
+                    </div>
+
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">C:</h2>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">intermediate</h2>
+                    </div>
+
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">Phyton:</h2>
+                    </div>
+                    <div class="col-sm-6" data-aos="zoom-in-up" data-aos-offset="300">
+                        <h2 class="progress-title text-center">Beginner</h2>
+                    </div>
+            
+                            
+                    </div>
+                </div>
+            </div>
             <!-- certificate Grid Items-->
             <div class="row justify-content-center">
     </section>
@@ -183,89 +260,73 @@
        <section class="page-section portfolio" id="education">
         <div class="container">
             <!-- certificate Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Education</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"data-aos="zoom-in-down" data-aos-offset="300">Education</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
-              <div class="divider-custom-line"></div>
-              <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-              <div class="divider-custom-line"></div>
+              <div class="divider-custom-line"data-aos="fade-right"data-aos-offset="300"></div>
+              <div class="divider-custom-icon"data-aos="zoom-in"data-aos-offset="300"><i class="fas fa-caret-up"></i></div>
+              <div class="divider-custom-line"data-aos="fade-left"data-aos-offset="300"></div>
             </div>
-            <p>
-                Bina Nusantara University(Binus University) Computer Science 2019-2023 </br>
-                SMA Negeri 70 Jakarta Science 2016-2018<br>
+            <p class="pedu text-center"data-aos="zoom-in-up" data-aos-offset="300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                    <circle cx="7" cy="7" r="7"/>
+                 </svg>
+                Bina Nusantara University(Binus University) Computer Science Major 2019-till present </br></br>
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                    <circle cx="7" cy="7" r="7"/>
+                 </svg>               
+                Sekolah Menengah Atas Negeri 70 Jakarta Science 2016-2018<br>
             </p>
             <!-- certificate Grid Items-->
-            <div class="row justify-content-center">
     </section>
     <!-- About Section-->
     <section class="page-section bg-primary text-white mb-0" id="about">
       <div class="container">
         <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-white"data-aos="zoom-in-down" data-aos-offset="300">About Me</h2>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
+          <div class="divider-custom-line" data-aos="fade-right"data-aos-offset="300"></div>
+          <div class="divider-custom-icon" data-aos="zoom-in"data-aos-offset="300"><i class="fas fa-caret-up"></i></div>
+          <div class="divider-custom-line" data-aos="fade-left"data-aos-offset="300"></div>
         </div>
         <!-- About Section Content-->
         <div class="row">
           <div class="col-lg-4 ms-auto">
-            <p class="lead">
-              Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+            <p class="lead"data-aos="zoom-in-up" data-aos-offset="300">
+                    Iam currently undergraduate student at Binus University 
             </p>
           </div>
-          <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+          <div class="col-lg-4 me-auto"><p class="lead"data-aos="zoom-in-up" data-aos-offset="300">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
         </div>
-        <!-- About Section Button-->
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-            <i class="fas fa-download me-2"></i>
-            Free Download!
-          </a>
-        </div>
+       
       </div>
     </section>
     
     <!-- Footer-->
     <footer class="footer text-center">
       <div class="container">
-        <div class="row">
-          <!-- Footer Location-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">
-              2215 John Daniel Drive
-              <br />
-              Clark, MO 65243
-            </p>
-          </div>
+        <div class="row  justify-content-center">
+        
           <!-- Footer Social Icons-->
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
+            <h4 class="text-uppercase mb-4">Contact me</h4>
             <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
             <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/taufiqurrahman-zahruddin-sutomo/"><i class="fab fa-fw fa-linkedin-in"></i></a>
             <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
           </div>
-          <!-- Footer About Text-->
-          <div class="col-lg-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">
-              Freelance is a free to use, MIT licensed Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>
-              .
-            </p>
-          </div>
+      
         </div>
       </div>
     </footer>
     <!-- Copyright Section-->
     <div class="copyright py-4 text-center text-white">
-      <div class="container"><small>Copyright &copy; Your Website 2021</small></div>
+      <div class="container"><small>Copyright &copy; Taufiqurrahman Zahruddin Sutomo Website 2021</small></div>
     </div>
-    <!-- Portfolio Modals-->
-    <!-- Portfolio Modal 1-->
+    <!-- certificate1-->
+    <!-- certificate1-->
     <div class="portfolio-modal modal fade" id="certificate1" tabindex="-1" aria-labelledby="certificate1" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
@@ -274,17 +335,17 @@
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
+                  <!-- certificate1- Title-->
                   <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-caret-up"></i></div>
                     <div class="divider-custom-line"></div>
                   </div>
-                  <!-- Portfolio Modal - Image-->
+                  <!-- certificate1 - Image-->
                   <img class="img-fluid rounded mb-5" src="assets/img/certificate/ser1.png" alt="..." />
-                  <!-- Portfolio Modal - Text-->
+                  <!-- certificate1 - Text-->
                   <p class="mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod
                     consequuntur itaque. Nam.
@@ -314,7 +375,7 @@
                   <!-- Icon Divider-->
                   <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-caret-up"></i></div>
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
@@ -349,7 +410,7 @@
                   <!-- Icon Divider-->
                   <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-caret-up"></i></div>
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image-->
@@ -370,119 +431,15 @@
         </div>
       </div>
     </div>
-    <!-- Portfolio Modal 4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod
-                    consequuntur itaque. Nam.
-                  </p>
-                  <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod
-                    consequuntur itaque. Nam.
-                  </p>
-                  <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 6-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod
-                    consequuntur itaque. Nam.
-                  </p>
-                  <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  
+    
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
